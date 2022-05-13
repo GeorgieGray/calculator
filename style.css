@@ -1,0 +1,24 @@
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 300px; 
+}
+.numbers button {
+    width: 25%;
+    height: calc(300px*0.15);
+}
+.screen {
+    background-color: rgb(239, 239, 239);
+    border: 1px solid rgb(118, 118, 118);
+    border-bottom: none;
+    width: 300px;
+    font-size: 32px;
+    padding: 30px;
+    text-align: right;
+
+}
+
+
+
